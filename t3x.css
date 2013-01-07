@@ -24,6 +24,9 @@ PRE { border-color: #202020; background: #eaf0f6; border-width: 1px;
 IMG { border-color: #808080; border-width: 1px; border-style: solid;
       padding: 0; margin: 0; margin-top: 0.5em; margin-bottom: 0.5em; }
 DIV.menu { font-family: courier, monospace; }
+DIV.centered { text-align: center; }
+P.righthead { text-align: right; }
+P.dedication { text-aligh: left; font-style: italic; }
 TABLE.table TD { border: 1px solid #800000; padding: 0.25em; }
 TABLE.table TH { border: 1px solid #800000; padding: 0.25em;
 		 background: #f8f8d0; }
