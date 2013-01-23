@@ -1,0 +1,38 @@
+BODY { color: #000000; background: #e8e0c0; }
+H1, H2 { color: #800000; }
+IMG { float: left; margin-left: 1em; margin-top: 1em; margin-bottom: 1em; }
+A { text-decoration: none; }
+A:link { color: #0000ff; }
+A:visited { color: #006060; }
+A:hover { background: #0000ff; color: #ffffff; }
+A:focus { background: #0000ff; color: #ffffff; }
+A IMG { border: 1px solid #ffff00; }
+CODE { font-family: courier, monospace; font-weight: bold; color: #6000c0; }
+VAR { color: #000080; font-style: italic; }
+EM { font-style: italic; }
+B { color: #800000; }
+A B { color: #0000ff; }
+A B { color: #0000ff; }
+A:hover B { color: #ffffff; }
+A:focus B { color: #ffffff; }
+SMALL { color: #606060; }
+HR { border: 0; border-top: 1px solid #A00000; clear: both; }
+BLOCKQUOTE { background: #ffd0d0; border: 1px solid #800000; padding: 0.5em;
+	     margin-right: 1.5em; margin-left: 1.5em; }
+PRE { border-color: #202020; background: #eaf0f6; border-width: 1px;
+      border-style: solid; padding: 0.5em; }
+IMG { border-color: #808080; border-width: 1px; border-style: solid;
+      padding: 0; margin: 0; margin-top: 0.5em; margin-bottom: 0.5em; }
+DIV.menu { font-family: courier, monospace; }
+DIV.centered { text-align: center; }
+P.righthead { text-align: right; }
+P.prose { text-indent: 15mm; }
+P.dedication { text-aligh: left; font-style: italic; }
+TABLE.table TD { border: 1px solid #800000; padding: 0.25em; }
+TABLE.table TH { border: 1px solid #800000; padding: 0.25em;
+		 background: #f8f8d0; }
+TABLE * IMG { margin-top: 0; margin-left: 0; }
+TD,TH { vertical-align: top; }
+*.tag { font-style: normal; color: #800000; background: #e0e000; }
+*.center { text-align: center; }
+*.news { border: 1px solid #800000; background: #f8f0d0; text-align: center; }
