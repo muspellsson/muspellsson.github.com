@@ -28,11 +28,6 @@ DIV.centered { text-align: center; }
 P.righthead { text-align: right; }
 DIV.prose { text-indent: 15mm; }
 P.dedication { text-aligh: left; font-style: italic; }
-TABLE.table TD { border: 1px solid #800000; padding: 0.25em; }
-TABLE.table TH { border: 1px solid #800000; padding: 0.25em;
-		 background: #f8f8d0; }
-TABLE * IMG { margin-top: 0; margin-left: 0; }
-TD,TH { vertical-align: top; }
 *.tag { font-style: normal; color: #800000; background: #e0e000; }
 *.center { text-align: center; }
 *.news { border: 1px solid #800000; background: #f8f0d0; text-align: center; }
