@@ -31,3 +31,6 @@ P.dedication { text-aligh: left; font-style: italic; }
 *.tag { font-style: normal; color: #800000; background: #e0e000; }
 *.center { text-align: center; }
 *.news { border: 1px solid #800000; background: #f8f0d0; text-align: center; }
+TABLE { border: none;}
+TD, TH { border: 1px solid; padding: 10pt;}
+TR { border: .4pt;}
