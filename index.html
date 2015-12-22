@@ -1513,8 +1513,8 @@ function mont_(x,y,n,np) {
     </script>
     <script type="text/javascript">
       function genKeys(bitcount) {
-      	var p = randTruePrime(bitcount);
-      	var q = randTruePrime(bitcount);
+      	var p = randTruePrime(bitcount/2);
+      	var q = randTruePrime(bitcount/2);
       	var n = mult(p, q);
       	var phi = mult(addInt(p, -1), addInt(q, -1));
       	var e;
@@ -1561,12 +1561,15 @@ function mont_(x,y,n,np) {
     button {
     	width: 20%;
     }
+    input {
+    	width: 10%;
+    }
     </style>
   </head>
   <body>
    
     <script type="text/javascript">
-      bitcount = 16;
+      bitcount = 32;
 
       window.onload = function () {
       	document.getElementById("bitcount").value = bitcount;
