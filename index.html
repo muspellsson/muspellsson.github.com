@@ -1615,27 +1615,17 @@ function mont_(x,y,n,np) {
       	document.getElementById("privkey").value = d + " " + n;
       }
     </script>
-    <h1>Асимметричное шифрование</h1>
-    <h2>RSA</h2>
-    <h3>Ключи</h3>
-    <p>Открытый и закрытый ключи шифрования. Могут быть введены вручную, а могут быть сгенерированы (медленно)</p>
     <h4>Открытый ключ</h4>
- 	<textarea class="key" id="openkey"></textarea>
- 	<h4>Закрытый ключ</h4>
+    <textarea class="key" id="openkey"></textarea>
+    <h4>Закрытый ключ</h4>
     <textarea class="key" id="privkey"></textarea><br>
-    <p>
-    Генерация ключей &mdash; долгий процесс, его продолжительность зависит от длины ключа. В следующее поле можно ввести желаемую длину. Если длина не будет степенью двойки, может произойти непоправимое.
-    </p>
+    <h4>Длина ключа для генерации (в битах)</h4>
     <input id="bitcount"><br>
     <button onclick="keygen()">Генерация ключей</button>
-    <p>
-    В это поле можно ввести текст, который будет зашифрован. Не забудьте, что шифрование требует открытого ключа.
-    </p>
+    <h4>Открытый текст</h4>
     <textarea class="text" id="opentext"></textarea><br>
     <button onclick="do_encrypt()">Шифрование</button><br>
-    <p>
-    В это поле вводится текст, который необходимо расшифровать. Для расшифрования нужно иметь подходящий закрытый ключ.
-    </p>
+    <h4>Шифротекст</h4>
     <textarea class="text" id="cryptotext"></textarea><br>
     <button onclick="do_decrypt()">Расшифрование</button>
   </body>
